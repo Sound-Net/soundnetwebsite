@@ -18,7 +18,7 @@ quarto preview
 
 ## Publishing
 
-A GitHub Actions workflow at `.github/workflows/publish.yml` publishes the rendered site to the `gh-pages` branch on pushes to `main` using `quarto-dev/quarto-actions/publish`.
+A GitHub Actions workflow at `.github/workflows/publish.yml` publishes the rendered site to the `gh-pages` branch on pushes to `main`, and also supports manual runs via `workflow_dispatch`, using `quarto-dev/quarto-actions/publish`.
 
 ## TODOs
 
