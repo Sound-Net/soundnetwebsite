@@ -16,8 +16,8 @@ Sound-Net provides software tools that support field collection, archiving, and 
 ### xsensViewer
 
 ::: {.tool-buttons}
-[Download for macOS](https://github.com/Sound-Net/soundnetwebsite/releases/latest?tool=xsensviewer&platform=macos){.btn .btn-primary}
-[Download for Windows](https://github.com/Sound-Net/soundnetwebsite/releases/latest?tool=xsensviewer&platform=windows){.btn .btn-outline-primary}
+[Download for macOS](#placeholder-xsensviewer-macos){.btn .btn-primary}
+[Download for Windows](#placeholder-xsensviewer-windows){.btn .btn-outline-primary}
 :::
 :::
 :::
@@ -29,8 +29,8 @@ Sound-Net provides software tools that support field collection, archiving, and 
 ### sudunarchiver
 
 ::: {.tool-buttons}
-[Download for macOS](https://github.com/Sound-Net/soundnetwebsite/releases/latest?tool=sudunarchiver&platform=macos){.btn .btn-primary}
-[Download for Windows](https://github.com/Sound-Net/soundnetwebsite/releases/latest?tool=sudunarchiver&platform=windows){.btn .btn-outline-primary}
+[Download for macOS](#placeholder-sudunarchiver-macos){.btn .btn-primary}
+[Download for Windows](#placeholder-sudunarchiver-windows){.btn .btn-outline-primary}
 :::
 :::
 :::
@@ -42,8 +42,8 @@ Sound-Net provides software tools that support field collection, archiving, and 
 ### ssensorfirmwareupdater
 
 ::: {.tool-buttons}
-[Download for macOS](https://github.com/Sound-Net/soundnetwebsite/releases/latest?tool=ssensorfirmwareupdater&platform=macos){.btn .btn-primary}
-[Download for Windows](https://github.com/Sound-Net/soundnetwebsite/releases/latest?tool=ssensorfirmwareupdater&platform=windows){.btn .btn-outline-primary}
+[Download for macOS](#placeholder-ssensorfirmwareupdater-macos){.btn .btn-primary}
+[Download for Windows](#placeholder-ssensorfirmwareupdater-windows){.btn .btn-outline-primary}
 :::
 :::
 :::

@@ -23,4 +23,4 @@ A GitHub Actions workflow at `.github/workflows/publish.yml` publishes the rende
 ## TODOs
 
 - Placeholder icons currently live in `images/icons/` and should be replaced with the real/current icons for each tool once available.
-- Download links on the homepage currently point to placeholder release URLs and should be updated to direct macOS/Windows release assets once release automation exists.
+- Download links on the homepage currently use placeholder anchors/URLs and should be updated to direct macOS/Windows release assets once release automation exists.
