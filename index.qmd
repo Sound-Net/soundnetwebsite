@@ -16,8 +16,8 @@ Sound-Net provides software tools that support field collection, archiving, and 
 ### xsensViewer
 
 ::: {.tool-buttons}
-[Download for macOS](https://github.com/Sound-Net/soundnetwebsite/releases/latest#xsensviewer-macos){.btn .btn-primary}
-[Download for Windows](https://github.com/Sound-Net/soundnetwebsite/releases/latest#xsensviewer-windows){.btn .btn-outline-primary}
+[Download for macOS](https://github.com/Sound-Net/soundnetwebsite/releases/latest/download/xsensviewer-macos-placeholder.zip){.btn .btn-primary}
+[Download for Windows](https://github.com/Sound-Net/soundnetwebsite/releases/latest/download/xsensviewer-windows-placeholder.zip){.btn .btn-outline-primary}
 :::
 :::
 :::
@@ -29,8 +29,8 @@ Sound-Net provides software tools that support field collection, archiving, and 
 ### sudunarchiver
 
 ::: {.tool-buttons}
-[Download for macOS](https://github.com/Sound-Net/soundnetwebsite/releases/latest#sudunarchiver-macos){.btn .btn-primary}
-[Download for Windows](https://github.com/Sound-Net/soundnetwebsite/releases/latest#sudunarchiver-windows){.btn .btn-outline-primary}
+[Download for macOS](https://github.com/Sound-Net/soundnetwebsite/releases/latest/download/sudunarchiver-macos-placeholder.zip){.btn .btn-primary}
+[Download for Windows](https://github.com/Sound-Net/soundnetwebsite/releases/latest/download/sudunarchiver-windows-placeholder.zip){.btn .btn-outline-primary}
 :::
 :::
 :::
@@ -42,8 +42,8 @@ Sound-Net provides software tools that support field collection, archiving, and 
 ### ssensorfirmwareupdater
 
 ::: {.tool-buttons}
-[Download for macOS](https://github.com/Sound-Net/soundnetwebsite/releases/latest#ssensorfirmwareupdater-macos){.btn .btn-primary}
-[Download for Windows](https://github.com/Sound-Net/soundnetwebsite/releases/latest#ssensorfirmwareupdater-windows){.btn .btn-outline-primary}
+[Download for macOS](https://github.com/Sound-Net/soundnetwebsite/releases/latest/download/ssensorfirmwareupdater-macos-placeholder.zip){.btn .btn-primary}
+[Download for Windows](https://github.com/Sound-Net/soundnetwebsite/releases/latest/download/ssensorfirmwareupdater-windows-placeholder.zip){.btn .btn-outline-primary}
 :::
 :::
 :::
