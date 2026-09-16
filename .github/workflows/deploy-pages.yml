@@ -25,6 +25,9 @@ jobs:
       - name: Set up Pages
         uses: actions/configure-pages@v5
 
+      - name: Set up Pandoc
+        uses: r-lib/actions/setup-pandoc@v2
+
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
