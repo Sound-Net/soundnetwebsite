@@ -1,0 +1,50 @@
+---
+title: "Home"
+---
+
+# Welcome to Sound-Net
+
+Sound-Net provides software tools that support field collection, archiving, and firmware management workflows.
+
+<!-- TODO: Replace placeholder release links with direct macOS/Windows assets per tool once release automation is available. -->
+
+::: {.columns}
+::: {.column width="33%"}
+::: {.tool-card}
+![xsensViewer icon](images/icons/xsensViewer.svg){.tool-icon}
+
+### xsensViewer
+
+::: {.tool-buttons}
+[Download for macOS](documentation/downloads.qmd#xsensviewer){.btn .btn-primary}
+[Download for Windows](documentation/downloads.qmd#xsensviewer){.btn .btn-outline-primary}
+:::
+:::
+:::
+
+::: {.column width="33%"}
+::: {.tool-card}
+![sudunarchiver icon](images/icons/sudunarchiver.svg){.tool-icon}
+
+### sudunarchiver
+
+::: {.tool-buttons}
+[Download for macOS](documentation/downloads.qmd#sudunarchiver){.btn .btn-primary}
+[Download for Windows](documentation/downloads.qmd#sudunarchiver){.btn .btn-outline-primary}
+:::
+:::
+:::
+
+::: {.column width="33%"}
+::: {.tool-card}
+![ssensorfirmwareupdater icon](images/icons/ssensorfirmwareupdater.svg){.tool-icon}
+
+### ssensorfirmwareupdater
+
+::: {.tool-buttons}
+[Download for macOS](documentation/downloads.qmd#ssensorfirmwareupdater){.btn .btn-primary}
+[Download for Windows](documentation/downloads.qmd#ssensorfirmwareupdater){.btn .btn-outline-primary}
+:::
+:::
+:::
+:::
