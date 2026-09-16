@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="ssensorfirmwareupdater-title ssensorfirmwareupdater-desc">
   <!-- TODO: Replace this placeholder icon with the real/current ssensorfirmwareupdater icon asset. -->
-  <title id="title">ssensorfirmwareupdater placeholder icon</title>
-  <desc id="desc">Chip icon with circular update arrows.</desc>
+  <title id="ssensorfirmwareupdater-title">ssensorfirmwareupdater placeholder icon</title>
+  <desc id="ssensorfirmwareupdater-desc">Chip icon with circular update arrows.</desc>
   <rect x="44" y="44" width="72" height="72" rx="10" fill="#6f42c1"/>
   <rect x="58" y="58" width="44" height="44" rx="6" fill="#ffffff"/>
   <path d="M80 20 C104 20 122 38 122 62" fill="none" stroke="#6f42c1" stroke-width="8"/>

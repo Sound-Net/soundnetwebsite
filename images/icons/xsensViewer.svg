@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="xsensviewer-title xsensviewer-desc">
   <!-- TODO: Replace this placeholder icon with the real/current xsensViewer icon asset. -->
-  <title id="title">xsensViewer placeholder icon</title>
-  <desc id="desc">A monitor outline with X glyph.</desc>
+  <title id="xsensviewer-title">xsensViewer placeholder icon</title>
+  <desc id="xsensviewer-desc">A monitor outline with X glyph.</desc>
   <rect x="20" y="24" width="120" height="84" rx="10" fill="#0d6efd"/>
   <rect x="28" y="32" width="104" height="68" rx="6" fill="#ffffff"/>
   <path d="M60 52 L100 88 M100 52 L60 88" stroke="#0d6efd" stroke-width="8" stroke-linecap="round"/>

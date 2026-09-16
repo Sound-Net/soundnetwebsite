@@ -16,6 +16,20 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
 
+      - name: Ensure gh-pages branch exists
+        run: |
+          if git ls-remote --exit-code --heads origin gh-pages >/dev/null 2>&1; then
+            echo "gh-pages branch already exists"
+          else
+            git checkout --orphan gh-pages
+            git reset --hard
+            touch .nojekyll
+            git add .nojekyll
+            git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m "Initialize gh-pages branch"
+            git push origin gh-pages
+            git checkout -
+          fi
+
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
