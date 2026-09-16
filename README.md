@@ -20,8 +20,6 @@ quarto preview
 
 A GitHub Actions workflow at `.github/workflows/deploy-pages.yml` renders the site and deploys the generated `_site/` output to GitHub Pages on pushes to `main`, and also supports manual runs via `workflow_dispatch`.
 
-After this workflow is merged, a repository admin still needs to enable GitHub Pages in **Settings > Pages** and set the source to **GitHub Actions**.
-
 ## TODOs
 
 - Placeholder icons currently live in `images/icons/` and should be replaced with the real/current icons for each tool once available.
