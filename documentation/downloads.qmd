@@ -1,0 +1,22 @@
+---
+title: "Downloads"
+---
+
+Download links are placeholders until release automation is configured.
+
+<!-- TODO: Replace this page and links with direct, tool-specific release asset URLs once automated releases exist. -->
+
+## xsensViewer
+
+- macOS package: coming soon.
+- Windows package: coming soon.
+
+## sudunarchiver
+
+- macOS package: coming soon.
+- Windows package: coming soon.
+
+## ssensorfirmwareupdater
+
+- macOS package: coming soon.
+- Windows package: coming soon.
