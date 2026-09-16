@@ -2,21 +2,33 @@
 title: "Downloads"
 ---
 
-Download links are placeholders until release automation is configured.
+Every button on the [home page](../index.qmd) points at the latest GitHub
+release asset for that tool, so it downloads the installer directly. Use the
+release pages below for older versions, checksums and release notes.
 
-<!-- TODO: Replace this page and links with direct, tool-specific release asset URLs once automated releases exist. -->
+<!-- TODO: The asset file names below are placeholders. Replace them with the exact
+     names published on each repository's releases page. -->
 
-## xsensViewer
+## SoundNet Sensor Viewer
 
-- macOS package: coming soon.
-- Windows package: coming soon.
+Repository: [Sound-Net/xsensViewer](https://github.com/Sound-Net/xsensViewer) ·
+[all releases](https://github.com/Sound-Net/xsensViewer/releases)
 
-## sudunarchiver
+- [macOS package](https://github.com/Sound-Net/xsensViewer/releases/latest/download/xsensViewer-macos.dmg)
+- [Windows package](https://github.com/Sound-Net/xsensViewer/releases/latest/download/xsensViewer-windows.exe)
 
-- macOS package: coming soon.
-- Windows package: coming soon.
+## SUDUnarchiver
 
-## ssensorfirmwareupdater
+Repository: [Sound-Net/sudunarchiver](https://github.com/Sound-Net/sudunarchiver) ·
+[all releases](https://github.com/Sound-Net/sudunarchiver/releases)
 
-- macOS package: coming soon.
-- Windows package: coming soon.
+- [macOS package](https://github.com/Sound-Net/sudunarchiver/releases/latest/download/sudunarchiver-macos.dmg)
+- [Windows package](https://github.com/Sound-Net/sudunarchiver/releases/latest/download/sudunarchiver-windows.exe)
+
+## Sensor Firmware Updater
+
+Repository: [Sound-Net/sensorfirmwareupdater](https://github.com/Sound-Net/sensorfirmwareupdater) ·
+[all releases](https://github.com/Sound-Net/sensorfirmwareupdater/releases)
+
+- [macOS package](https://github.com/Sound-Net/sensorfirmwareupdater/releases/latest/download/sensorfirmwareupdater-macos.dmg)
+- [Windows package](https://github.com/Sound-Net/sensorfirmwareupdater/releases/latest/download/sensorfirmwareupdater-windows.exe)

@@ -1,0 +1,92 @@
+/*-- scss:defaults --*/
+
+// Sound-Net dark theme: deep ocean navy, matching the application icons.
+
+$sn-abyss:    #0b1622;   // page background
+$sn-deep:     #121f2e;   // raised surfaces (cards, navbar)
+$sn-deeper:   #18293b;   // hover surfaces
+$sn-line:     #24384d;   // borders
+$sn-teal:     #4fc3d9;   // primary accent (icon highlight blue)
+$sn-teal-dim: #2e8fa6;
+$sn-text:     #dce6f0;
+$sn-muted:    #93a6ba;
+
+$body-bg:          $sn-abyss;
+$body-color:       $sn-text;
+$primary:          $sn-teal;
+$secondary:        $sn-deeper;
+$light:            $sn-deeper;
+$dark:             $sn-abyss;
+$border-color:     $sn-line;
+
+$link-color:            $sn-teal;
+$link-hover-color:      lighten($sn-teal, 12%);
+$link-decoration:       none;
+$link-hover-decoration: underline;
+
+$headings-color:  #ffffff;
+$text-muted:      $sn-muted;
+
+$navbar-bg:               $sn-deep;
+$navbar-fg:               $sn-text;
+$navbar-hl:               $sn-teal;
+$footer-bg:               $sn-deep;
+$footer-fg:               $sn-muted;
+
+$code-color:              #ffb997;
+$code-bg:                 $sn-deep;
+$pre-bg:                  $sn-deep;
+$table-border-color:      $sn-line;
+
+$border-radius:    0.6rem;
+$border-radius-lg: 0.8rem;
+
+/*-- scss:rules --*/
+
+body {
+  background-color: $sn-abyss;
+}
+
+// Quarto's content column keeps a light default in places; pin it down.
+main, #quarto-content, .page-columns {
+  color: $sn-text;
+}
+
+hr {
+  border-color: $sn-line;
+  opacity: 1;
+}
+
+blockquote {
+  border-left: 3px solid $sn-teal-dim;
+  color: $sn-muted;
+}
+
+table {
+  color: $sn-text;
+}
+
+.navbar {
+  border-bottom: 1px solid $sn-line;
+}
+
+.btn-primary {
+  --bs-btn-color: #{$sn-abyss};
+  --bs-btn-bg: #{$sn-teal};
+  --bs-btn-border-color: #{$sn-teal};
+  --bs-btn-hover-color: #{$sn-abyss};
+  --bs-btn-hover-bg: #{lighten($sn-teal, 8%)};
+  --bs-btn-hover-border-color: #{lighten($sn-teal, 8%)};
+  --bs-btn-active-bg: #{$sn-teal-dim};
+  --bs-btn-active-border-color: #{$sn-teal-dim};
+  font-weight: 600;
+}
+
+.btn-outline-primary {
+  --bs-btn-color: #{$sn-teal};
+  --bs-btn-border-color: #{$sn-teal-dim};
+  --bs-btn-hover-color: #{$sn-abyss};
+  --bs-btn-hover-bg: #{$sn-teal};
+  --bs-btn-hover-border-color: #{$sn-teal};
+  font-weight: 600;
+}
