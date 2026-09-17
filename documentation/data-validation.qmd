@@ -78,7 +78,7 @@ This indicates the sensor package is working and sending data but the IMU has fa
 
 The sound check plots a spectrogram for each channel of the four sampled files, each in its own tab. Check for anything odd -- one channel much noisier or much quieter than the others indicates a hydrophone may be damaged. Replace it if you have spares, or get in touch.
 
-![A spectrogram tab from the sound check. All four channels should look broadly similar. A channel which is much quieter or much noisier than the others points to a damaged hydrophone.](../images/data-validation/sud_unarchiver_spectrgram.png){#fig-spectrogram width=475 fig-align="center"}
+![A spectrogram tab from the sound check. All four channels should look broadly similar. A channel which is much quieter or much noisier than the others points to a damaged hydrophone. In this case the acoustic data looks fine.](../images/data-validation/sud_unarchiver_spectrgram.png){#fig-spectrogram width=475 fig-align="center"}
 
 ## Checking the sensor packages {#checking-the-sensor-packages}
 
