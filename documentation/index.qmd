@@ -7,5 +7,7 @@ Project guides and operational references.
 - [Field Protocols](field-protocols.qmd) — the SoundNet deployment guide: hardware
   overview, setting up the 4 channel SoundTrap and sensor package, deployment,
   recovery and the sensor CSV format.
-- [Data Validation](data-validation.qmd)
+- [Data Validation](data-validation.qmd) — checking data after recovery: extracting
+  sensor files with SUDUnarchiver, running the validation checks and working out what a
+  failed check means.
 - [Downloads](downloads.qmd)
