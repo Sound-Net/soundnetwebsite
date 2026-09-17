@@ -4,3 +4,25 @@ _site/
 
 /.quarto/
 **/*.quarto_ipynb
+.Rhistory
+.Rproj.user/118700B9/jobs/73A94F33-output.json
+.Rproj.user/118700B9/pcs/files-pane.pper
+.Rproj.user/118700B9/pcs/source-pane.pper
+.Rproj.user/118700B9/rmd-outputs
+.Rproj.user/118700B9/saved_source_markers
+.Rproj.user/118700B9/sources/per/t/03E4BD77
+.Rproj.user/118700B9/sources/per/t/03E4BD77-contents
+.Rproj.user/118700B9/sources/per/t/562A63F2
+.Rproj.user/118700B9/sources/per/t/562A63F2-contents
+.Rproj.user/118700B9/sources/per/t/925B87CF
+.Rproj.user/118700B9/sources/per/t/925B87CF-contents
+.Rproj.user/118700B9/sources/prop/2049D209
+.Rproj.user/118700B9/sources/session-1488cbaf/03E4BD77
+.Rproj.user/118700B9/sources/session-1488cbaf/03E4BD77-contents
+.Rproj.user/118700B9/sources/session-1488cbaf/562A63F2
+.Rproj.user/118700B9/sources/session-1488cbaf/562A63F2-contents
+.Rproj.user/118700B9/sources/session-1488cbaf/AB7F4816
+.Rproj.user/118700B9/sources/session-1488cbaf/AB7F4816-contents
+.Rproj.user/118700B9/sources/session-1488cbaf/lock_file
+.Rproj.user/shared/notebooks/EDAEEC6C-data-validation/1/118700B91488cbaf/chunks.json
+.Rproj.user/shared/notebooks/EDAEEC6C-data-validation/1/s/chunks.json
