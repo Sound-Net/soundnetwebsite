@@ -4,7 +4,6 @@ project:
 website:
   title: "SoundNet"
   navbar:
-    background: dark
     left:
       - href: index.qmd
         text: Home
@@ -15,11 +14,13 @@ website:
         href: https://github.com/Sound-Net
         aria-label: Sound-Net on GitHub
   page-footer:
-    background: dark
     center: "Sound-Net — tracking porpoises and dolphins around fishing nets."
 
 format:
   html:
-    theme: theme-dark.scss
+    # Dark is listed first so it stays the default; the navbar gets a toggle.
+    theme:
+      dark: theme-dark.scss
+      light: theme-light.scss
     css: styles.css
     toc: false

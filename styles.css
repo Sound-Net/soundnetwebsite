@@ -13,20 +13,20 @@
 .tool-card {
   display: flex;
   flex-direction: column;
-  background: #121f2e;
-  border: 1px solid #24384d;
+  background: var(--sn-card-bg);
+  border: 1px solid var(--sn-card-border);
   border-radius: 0.8rem;
   padding: 1.75rem 1.5rem;
   text-align: center;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+  box-shadow: var(--sn-card-shadow);
   transition: transform 0.15s ease, border-color 0.15s ease,
               box-shadow 0.15s ease;
 }
 
 .tool-card:hover {
   transform: translateY(-3px);
-  border-color: #4fc3d9;
-  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.5);
+  border-color: var(--sn-card-hover-border);
+  box-shadow: var(--sn-card-hover-shadow);
 }
 
 .tool-icon {
@@ -40,21 +40,21 @@
 .tool-card h3 {
   margin: 0 0 0.35rem;
   font-size: 1.15rem;
-  color: #ffffff;
+  color: var(--sn-card-heading);
 }
 
 .tool-repo-link {
   font-family: var(--bs-font-monospace, monospace);
   font-size: 0.8rem;
-  color: #93a6ba;
+  color: var(--sn-muted);
 }
 
 .tool-repo-link:hover {
-  color: #4fc3d9;
+  color: var(--sn-accent);
 }
 
 .tool-card p {
-  color: #b7c6d6;
+  color: var(--sn-card-text);
   font-size: 0.92rem;
   line-height: 1.5;
   margin: 0 0 1rem;
@@ -99,8 +99,8 @@ pre.wrap code {
   word-break: break-word;
 }
 
-/* Light-background diagrams and renders sit on a dark page -- round the
-   corners so they read as deliberate plates rather than blown-out blocks. */
+/* Round diagram and render corners so they read as deliberate plates
+   rather than blown-out blocks against the page. */
 #quarto-document-content figure img,
 figure.figure img {
   border-radius: 0.5rem;

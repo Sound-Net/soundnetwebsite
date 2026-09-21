@@ -1,0 +1,106 @@
+/*-- scss:defaults --*/
+
+// Sound-Net light theme: pale seafoam surfaces with the same teal accent,
+// deepened so it keeps contrast against a white page.
+
+$sn-foam:     #f6f9fb;   // page background
+$sn-surface:  #ffffff;   // raised surfaces (cards, navbar)
+$sn-shoal:    #e8f0f5;   // hover surfaces
+$sn-line:     #d3dfe8;   // borders
+$sn-teal:     #0e7c93;   // primary accent
+$sn-teal-dim: #0a5f71;
+$sn-text:     #1b2a38;
+$sn-muted:    #5a6d80;
+
+$body-bg:          $sn-foam;
+$body-color:       $sn-text;
+$primary:          $sn-teal;
+$secondary:        $sn-shoal;
+$light:            $sn-shoal;
+$dark:             #0b1622;
+$border-color:     $sn-line;
+
+$link-color:            $sn-teal;
+$link-hover-color:      $sn-teal-dim;
+$link-decoration:       none;
+$link-hover-decoration: underline;
+
+$headings-color:  #0b1622;
+$text-muted:      $sn-muted;
+
+$navbar-bg:               $sn-surface;
+$navbar-fg:               $sn-text;
+$navbar-hl:               $sn-teal;
+$footer-bg:               $sn-surface;
+$footer-fg:               $sn-muted;
+
+$code-color:              #b4441c;
+$code-bg:                 $sn-shoal;
+$pre-bg:                  $sn-shoal;
+$table-border-color:      $sn-line;
+
+$border-radius:    0.6rem;
+$border-radius-lg: 0.8rem;
+
+/*-- scss:rules --*/
+
+// Colours consumed by styles.css; theme-dark.scss defines the same names.
+:root {
+  --sn-card-bg: #{$sn-surface};
+  --sn-card-border: #{$sn-line};
+  --sn-card-hover-border: #{$sn-teal};
+  --sn-card-shadow: 0 1px 2px rgba(11, 22, 34, 0.06);
+  --sn-card-hover-shadow: 0 10px 24px rgba(11, 22, 34, 0.12);
+  --sn-card-heading: #0b1622;
+  --sn-card-text: #3a4c5e;
+  --sn-muted: #{$sn-muted};
+  --sn-accent: #{$sn-teal};
+}
+
+body {
+  background-color: $sn-foam;
+}
+
+main, #quarto-content, .page-columns {
+  color: $sn-text;
+}
+
+hr {
+  border-color: $sn-line;
+  opacity: 1;
+}
+
+blockquote {
+  border-left: 3px solid $sn-teal;
+  color: $sn-muted;
+}
+
+table {
+  color: $sn-text;
+}
+
+.navbar {
+  border-bottom: 1px solid $sn-line;
+}
+
+.btn-primary {
+  --bs-btn-color: #ffffff;
+  --bs-btn-bg: #{$sn-teal};
+  --bs-btn-border-color: #{$sn-teal};
+  --bs-btn-hover-color: #ffffff;
+  --bs-btn-hover-bg: #{$sn-teal-dim};
+  --bs-btn-hover-border-color: #{$sn-teal-dim};
+  --bs-btn-active-color: #ffffff;
+  --bs-btn-active-bg: #{darken($sn-teal-dim, 5%)};
+  --bs-btn-active-border-color: #{darken($sn-teal-dim, 5%)};
+  font-weight: 600;
+}
+
+.btn-outline-primary {
+  --bs-btn-color: #{$sn-teal};
+  --bs-btn-border-color: #{$sn-teal};
+  --bs-btn-hover-color: #ffffff;
+  --bs-btn-hover-bg: #{$sn-teal};
+  --bs-btn-hover-border-color: #{$sn-teal};
+  font-weight: 600;
+}

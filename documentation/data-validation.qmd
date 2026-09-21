@@ -7,7 +7,7 @@ toc-depth: 3
 
 ## Introduction
 
-Data validation is an important part of fieldwork. There are a number of things that can go wrong with SoundNet devices -- a sensor package may not record or may be damaged, a hydrophone may fail, or a download may not complete. Identifying these issues as soon as they happen, whilst the boat, the spares and the crew are still there, means that fieldwork time is not wasted.
+Data validation is an important part of fieldwork. There are a number of things that can go wrong with SoundNet devices -- a sensor package may not record or may be damaged, a hydrophone may fail, or a download may not complete. Identifying these issues as soon as they happen means that fieldwork time is not wasted.
 
 The checks on this page should be run after every recovery, once data have been downloaded from the SoundTrap. They take a few minutes per deployment.
 
@@ -17,8 +17,6 @@ Both programs used on this page are available from the [home page](../index.qmd)
 
 - **SUDUnarchiver** -- extracts data from `.sud` files and runs the validation checks.
 - **xsensViewer** -- connects to a sensor package to check whether it is working.
-
-SUDUnarchiver is a utility program developed to make decompressing `.sud` files much easier and, crucially, to let users extract parts of a `.sud` file without decompressing the sound data, which often requires terabytes of hard disk space.
 
 ## Checking the sud files
 
@@ -60,7 +58,7 @@ SUDUnarchiver returns a result for each check in the **Report** tab. Ideally eve
 
 ### If 0 kB sud files are present
 
-Go back to SoundTrap host with the SoundTrap attached and look at the file list. Do any of the files say *partial* instead of *downloaded*? Or do any of the files show as simply not downloaded? If so, these files need to be downloaded again.
+Go back to SoundTrapHost software with the SoundTrap attached and look at the file list. Do any of the files say *partial* instead of *downloaded*? Or do any of the files show as simply not downloaded? If so, these files need to be downloaded again.
 
 ### If there are fewer xsensIMU.csv files than sud files
 
@@ -82,7 +80,7 @@ The sound check plots a spectrogram for each channel of the four sampled files, 
 
 ## Checking the sensor packages {#checking-the-sensor-packages}
 
-If a sensor package did not work, or you suspect it might be damaged, the easiest way to check is with xsensViewer.
+If a sensor package did not work, or you suspect it might be damaged, the easiest way to check is with SoundNet Sensor Viewer
 
 Connect the sensor package to your computer, select the correct serial port from the dropdown menu and press **Connect**. The baud rate should be 38400. After a few seconds the sensor package should start streaming data and appear as a 3D sensor which moves in real time as you rotate it. Also check that depth and temperature look sensible, that the battery is near 100% and that the firmware version next to the *SensorData* title is 2.0.7.
 
@@ -97,6 +95,6 @@ See the [field protocols](field-protocols.qmd) page for more detail on the senso
 - Download the data with SoundTrap host and check nothing is listed as *partial*.
 - Extract everything except the wav files with SUDUnarchiver.
 - Run all four checks and read the report.
-- Empty `.sud` files -- download them again.
+- for OkB `.sud` files -- download them again and repeat. 
 - Missing or undersized `.xsensIMU.csv` files -- check the sensor package in xsensViewer.
 - Odd looking spectrograms -- check the hydrophones.

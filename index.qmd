@@ -24,8 +24,8 @@ temperature, light, battery and SD card state stream in live, and send commands
 to the Xsens MTi-3 orientation sensor.
 
 ::: {.tool-buttons}
-[Download for macOS](https://github.com/Sound-Net/xsensViewer/releases/latest/download/xsensViewer-macos.dmg){.btn .btn-primary download=""}
-[Download for Windows](https://github.com/Sound-Net/xsensViewer/releases/latest/download/xsensViewer-windows.exe){.btn .btn-outline-primary download=""}
+[Download for macOS](https://github.com/Sound-Net/xsensViewer/releases/latest/download/SoundNet.Sensor.Viewer-2.0.6.dmg){.btn .btn-primary download=""}
+[Download for Windows](https://github.com/Sound-Net/xsensViewer/releases/latest/download/SoundNet.Sensor.Viewer-2.0.6.exe){.btn .btn-outline-primary download=""}
 :::
 :::
 
@@ -40,8 +40,8 @@ Decompress SoundTrap `.sud` files in bulk — whole folder trees at a time, pick
 exactly which data streams to extract, with multi-threading on capable machines.
 
 ::: {.tool-buttons}
-[Download for macOS](https://github.com/Sound-Net/sudunarchiver/releases/latest/download/sudunarchiver-macos.dmg){.btn .btn-primary download=""}
-[Download for Windows](https://github.com/Sound-Net/sudunarchiver/releases/latest/download/sudunarchiver-windows.exe){.btn .btn-outline-primary download=""}
+[Download for macOS](https://github.com/Sound-Net/sudunarchiver/releases/latest/download/Sud.Unarchiver-1.0.3.dmg){.btn .btn-primary download=""}
+[Download for Windows](https://github.com/Sound-Net/sudunarchiver/releases/download/1.0.3/Sud.Unarchiver-1.0.3.msi){.btn .btn-outline-primary download=""}
 :::
 :::
 

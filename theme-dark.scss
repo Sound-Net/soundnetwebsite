@@ -43,6 +43,19 @@ $border-radius-lg: 0.8rem;
 
 /*-- scss:rules --*/
 
+// Colours consumed by styles.css; theme-light.scss defines the same names.
+:root {
+  --sn-card-bg: #{$sn-deep};
+  --sn-card-border: #{$sn-line};
+  --sn-card-hover-border: #{$sn-teal};
+  --sn-card-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+  --sn-card-hover-shadow: 0 10px 24px rgba(0, 0, 0, 0.5);
+  --sn-card-heading: #ffffff;
+  --sn-card-text: #b7c6d6;
+  --sn-muted: #{$sn-muted};
+  --sn-accent: #{$sn-teal};
+}
+
 body {
   background-color: $sn-abyss;
 }
