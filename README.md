@@ -1,6 +1,6 @@
 # Sound-Net Website
 
-This repository contains a simple [Quarto](https://quarto.org/) website for the Sound-Net project.
+This repository contains a simple [Quarto](https://quarto.org/) website for the Sound-Net project. [https://sound-net.github.io/soundnetwebsite/](https://sound-net.github.io/soundnetwebsite/)
 
 ## Local development
 
