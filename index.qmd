@@ -56,8 +56,8 @@ Install new firmware onto a sensor over USB in the field — two drop-downs and 
 button, with no Arduino IDE, board packages or bootloader knowledge required.
 
 ::: {.tool-buttons}
-[Download for macOS](https://github.com/Sound-Net/sensorfirmwareupdater/releases/latest/download/sensorfirmwareupdater-macos.dmg){.btn .btn-primary download=""}
-[Download for Windows](https://github.com/Sound-Net/sensorfirmwareupdater/releases/latest/download/sensorfirmwareupdater-windows.exe){.btn .btn-outline-primary download=""}
+[Download for macOS](https://github.com/Sound-Net/sensorfirmwareupdater/releases/latest/download/SoundNet.Firmware.Updater-1.0.0.dmg){.btn .btn-primary download=""}
+[Download for Windows](https://github.com/Sound-Net/sensorfirmwareupdater/releases/latest/download/SoundNet.Firmware.Updater-1.0.0.exe){.btn .btn-outline-primary download=""}
 :::
 :::
 
