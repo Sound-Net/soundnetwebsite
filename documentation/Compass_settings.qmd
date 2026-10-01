@@ -1,0 +1,24 @@
+---
+title: "Changing compass in situ calibration"
+format: html
+---
+
+## Introduction
+
+The SoundNet system has an orientation sensor (Xsens MTi-3) with a compass that works out heading. The MTi-3 has many clever calibration tools to get the real heading, but these can sometimes lead to issues. In particular, the in-situ compass calibration setting sometimes causes jumps in the heading. Here's how to check if it is enabled and how to disable it.
+
+## Disable in-situ compass calibration
+
+Open the Sensor Viewer app. If you don't have it, download it from [here](downloads.qmd).
+
+Connect the sensor to the computer, select the port and click `Connect`. You should see the sensor appear, along with orientation, battery level, etc.
+
+![xsensViewer allows visualisation of sensor package data. The left shows the real-time data values such as battery level, orientation and light. Using xsensViewer at the start of every deployment allows users to check the sensor packages are working properly.](../images/compass-calibration/xsensViewer1.png){#fig-xsensviewer1}
+
+Next we need to check the compass calibration. Click the `Get` button at the bottom left under `Advanced Options`.
+
+![Click the `Get` button - the program will ask the Xsens sensor what its settings are and these will appear in the Advanced Options section.](../images/compass-calibration/xsensViewer3.png){#fig-xsensviewer3}
+
+If the in-situ compass calibration is not set then you don't need to do anything. If it is set, deselect the `In-situ compass calibration` toggle and click `Set`. Note: you must click the `Set` button or the in-situ compass calibration will remain enabled.
+
+That's you done!
